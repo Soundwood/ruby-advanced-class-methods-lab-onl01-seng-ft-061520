@@ -42,4 +42,9 @@ class Song
   def self.alphabetical
     self.all.sort_by{|song| song.name}
   end
+  def self.new_from_filename(filename)
+    artist = filename.split()
+    song_title = 
+    self.create_by_name(song_title)
+  end
 end
