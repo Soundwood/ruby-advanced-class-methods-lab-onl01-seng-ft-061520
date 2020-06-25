@@ -47,7 +47,7 @@ class Song
     song_title = filename.split(" - ")[1].split(".mp3")[0]
     song_title = self.new
     song_title.name = song_title
-    song_title.artist = artist
+    song_title.artist_name = artist
     song_title
   end
 end
