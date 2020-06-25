@@ -12,7 +12,7 @@ class Song
   
   def self.create
     if self.all.include?(self)
-      self.all << self
+      @@all << self.new 
     end
     self
   end
