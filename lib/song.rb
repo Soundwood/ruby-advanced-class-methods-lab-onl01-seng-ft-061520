@@ -47,5 +47,6 @@ class Song
     artist = filename.split(" - ")[0]
     song_title = filename.split(" - ")[1].split(".mp3")[0]
     self.create_by_name(song_title)
+    @artist_name = artist
   end
 end
