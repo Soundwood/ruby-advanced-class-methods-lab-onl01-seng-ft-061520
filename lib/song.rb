@@ -23,4 +23,5 @@ class Song
     song.name = name
     @@all << song
     self
+  end
 end
