@@ -14,7 +14,6 @@ class Song
     if self.all.include?(self)
       @@all << self.new 
     end
-    self
   end
 
 end
