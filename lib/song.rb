@@ -33,8 +33,6 @@ class Song
     binding.pry
     if @@all.include?(self.name) 
       self
-    else
-      self
     end
       
   end
